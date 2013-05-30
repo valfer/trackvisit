@@ -1,0 +1,121 @@
+# $Id$
+#
+# Italian translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  trackvisit.tpl.php: n/a
+#  trackvisit.admin.inc: n/a
+#  trackvisit.module: n/a
+#  trackvisit.install: n/a
+#  trackvisit.info: n/a
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-05-30 16:26+0200\n"
+"PO-Revision-Date: 2013-05-30 16:26+0100\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Italian <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#: trackvisit.tpl.php:20
+msgid "Visited by"
+msgstr "Visualizzato da"
+
+#: trackvisit.tpl.php:27
+msgid "Loading..."
+msgstr "In caricamento..."
+
+#: trackvisit.tpl.php:30
+msgid "Load more"
+msgstr "Mostra altri…"
+
+#: trackvisit.tpl.php:33
+msgid "Close"
+msgstr "Chiudi"
+
+#: trackvisit.admin.inc:23
+msgid "Show Track Visit"
+msgstr ""
+
+#: trackvisit.admin.inc:24
+msgid ""
+"Choose if the author only see the visits or all users (admin always see "
+"visits)"
+msgstr ""
+
+#: trackvisit.admin.inc:26
+msgid "Only to author"
+msgstr ""
+
+#: trackvisit.admin.inc:27
+msgid "Only to admin"
+msgstr ""
+
+#: trackvisit.admin.inc:28
+msgid "To all users"
+msgstr ""
+
+#: trackvisit.admin.inc:40
+msgid "Content types"
+msgstr "Tipi di contenuto"
+
+#: trackvisit.admin.inc:43
+msgid "Trackvisit these content types only."
+msgstr ""
+
+#: trackvisit.module:21
+msgid "Track the visits of registered users to your nodes"
+msgstr ""
+
+#: trackvisit.module:99
+msgid "Track Visit - Visited By ..."
+msgstr ""
+
+#: trackvisit.module:33
+msgid "Return list of visitors of this node"
+msgstr ""
+
+#: trackvisit.module:41
+msgid "Track Visit settings"
+msgstr ""
+
+#: trackvisit.module:42
+msgid "Change how Track Visit behave."
+msgstr ""
+
+#: trackvisit.install:33
+msgid "The track table for trackvisit"
+msgstr ""
+
+#: trackvisit.install:36
+msgid "track identifier (unused)"
+msgstr ""
+
+#: trackvisit.install:42
+msgid "node identifier"
+msgstr ""
+
+#: trackvisit.install:48
+msgid "user identifier"
+msgstr ""
+
+#: trackvisit.install:54
+msgid "timestamp of visit"
+msgstr ""
+
+#: trackvisit.install:60
+msgid "viewmode of first visit (teaser, full)"
+msgstr ""
+
+#: trackvisit.info:0
+msgid "Track Visit"
+msgstr ""
+
+#: trackvisit.info:0
+msgid "See who viewed your article (or node in general)"
+msgstr ""

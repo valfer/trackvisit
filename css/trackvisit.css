@@ -1,0 +1,59 @@
+.trackvisit-info, .trackvisit-link
+{
+	/* background: #eee; */
+	padding-top: 2px;
+	padding-bottom: 3px;
+	text-align: right;
+}
+
+.trackvisit-link
+{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.trackvisit-list
+{
+	background: black;
+	opacity: 0.5;
+	color: white;
+	display: none;
+	padding: 10px;
+	/* max-height: 400px; */
+	overflow-y: auto;
+	font-size: 12px;
+	margin-left: auto;
+}
+
+.trackvisit-list ul
+{
+	margin: 0;
+}
+
+.trackvisit-list ul li
+{
+	list-style-type: none;
+	margin: 0;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow-x: hidden;	
+}
+
+.trackvisit-list-loading
+{
+	font-style: italic;
+	padding: 2px;
+}
+
+.trackvisit-list-more, .trackvisit-list-close
+{
+	display: none;
+	font-style: italic;
+	font-weight: bold;
+	padding: 2px;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+

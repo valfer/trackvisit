@@ -1,0 +1,8 @@
+name = Track Visit
+description = See who viewed your article (or node in general)
+core = 7.x
+files[] = trackvisit.module
+files[] = trackvisit.admin.inc
+files[] = trackvisit.install
+scripts[] = js/trackvisit.js
+stylesheets[all][] = css/trackvisit.css

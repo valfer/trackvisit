@@ -1,0 +1,73 @@
+<?php
+
+/**
+ * @file
+ * TODO: trackvisit_schema
+ */
+
+
+/**
+ * Implements hook_help().
+ */
+/**
+* Implementation of hook_install().
+*/
+function trackvisit_install() {
+	// Use schema API to create database table.
+	drupal_install_schema('trackvisit');
+}
+
+
+
+/**
+* Implementation of hook_uninstall().
+*/
+function trackvisit_uninstall() {
+	// Use schema API to delete database table.
+	drupal_uninstall_schema('trackvisit');
+}
+
+function trackvisit_schema() {
+	
+	$schema['trackvisit'] = array(
+	  'description' => t('The track table for trackvisit'),
+	  'fields' => array(
+	    'track_id' => array(
+	      'description' => t('track identifier (unused)'),
+	      'type' => 'serial',
+	      'unsigned' => TRUE,
+	      'not null' => TRUE,
+	    ),
+	    'node_id' => array(
+	      'description' => t('node identifier'),
+	      'type' => 'int',
+	      'unsigned' => TRUE,
+	      'not null' => TRUE,
+	    ),
+	    'user_id' => array(
+	      'description' => t('user identifier'),
+	      'type' => 'int',
+	      'unsigned' => TRUE,
+	      'not null' => TRUE,
+	    ),
+	    'time_visit' => array(
+	      'description' => t('timestamp of visit'),
+	      'unsigned' => TRUE,
+	      'type' => 'int',
+	      'not null' => TRUE,
+	    ),
+	    'view_mode' => array(
+	      'description' => t('viewmode of first visit (teaser, full)'),
+	      'type' => 'varchar',
+	      'length' => 31,
+	      'not null' => TRUE
+	    ),
+	  ),
+	  'primary key' => array('track_id'),
+	  'indexes' => array(
+	    'node_id_index' => array('node_id'),
+	  ),
+	);
+	
+	return $schema;
+}
